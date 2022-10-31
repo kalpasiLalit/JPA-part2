@@ -39,16 +39,16 @@ class SpringJpaHibernate2ApplicationTests {
 	@Test
 	@Order(value = 1)
 	public void testCreate(){
-		repository.save(new Employee(1,"kamlesh","singh",32000,25));
-		repository.save(new Employee(2,"yamles1h","singh22",332000,253));
-		repository.save(new Employee(3,"hamlesh2","si22ngh",342000,235));
-		repository.save(new Employee(4,"kamlesh1","singh",32000,25));
-		repository.save(new Employee(5,"dfsffds11h","singh22",332000,253));
-		repository.save(new Employee(6,"kamlasdaesh21","si22ngh",342000,234));
+		repository.save(new Employee(1,"lalit","kalpasi",32000,25));
+		repository.save(new Employee(2,"sumit","gupta",332000,253));
+		repository.save(new Employee(3,"puneet","kataria",342000,235));
+		repository.save(new Employee(4,"kamlesh","singh",32000,25));
+		repository.save(new Employee(5,"rohit","singh",332000,253));
+		repository.save(new Employee(6,"vineet","rathi",342000,234));
 
-		repository.save(new Employee(7,"kamadales1h","singh",32000,25));
-		repository.save(new Employee(8,"kadaamles1h","singh22",332000,253));
-		repository.save(new Employee(9,"adaadadada","si22ngh",342000,235));
+		repository.save(new Employee(7,"himanshu","singh",32000,25));
+		repository.save(new Employee(8,"rajat","singh",332000,253));
+		repository.save(new Employee(9,"virat","singh",342000,235));
 
 	}
 

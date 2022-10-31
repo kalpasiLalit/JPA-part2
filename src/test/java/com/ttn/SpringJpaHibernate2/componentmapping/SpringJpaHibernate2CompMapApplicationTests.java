@@ -34,7 +34,7 @@ class SpringJpaHibernate2CompMapApplicationTests {
     @Test
     @Order(value = 1)
     public void testCreate() {
-        repository.save(new Employee_component(1, new Name("kamlesh", "singh"), new Salary(32000, 20000, 5000, 20000), 25));
+        repository.save(new Employee_component(1, new Name("lalit", "kalpasi"), new Salary(32000, 20000, 5000, 20000), 25));
     }
 
     @Test
